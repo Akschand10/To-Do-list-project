@@ -5,7 +5,7 @@ Allows users to create, update, mark as completed/in progress, and delete tasks.
 
 ---
 
-Features
+Features:
 - Add new tasks
 - Edit task title and description
 - Toggle task status between `in_progress` and `completed`
@@ -14,22 +14,30 @@ Features
 
 ---
 
-Technologies Used
-
+Technologies Used:
 Frontend        Backend             Database 
-
 React.js        Node.js             MySQL    
 Axios (API)     Express.js                
 CSS             CORS, BodyParser         
 
 ---
 
+Project Structure:
+task-manager/
+client/ # React frontend
+src/
+App.js
+App.css
+server/ # Node.js backend
+server.js
+package.json
+package.json # Root for running both servers
+
+---
+
 Create a database and table in phpMyAdmin:
-
 CREATE DATABASE task_db;
-
 USE task_db;
-
 CREATE TABLE tasks (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
