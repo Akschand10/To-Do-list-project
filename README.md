@@ -1,4 +1,4 @@
-# NodeandReactproject
+# To-Do list project
 Task Manager App
 A full-stack Task Manager built with **React.js**, **Node.js**, **Express**, and **MySQL**.  
 Allows users to create, update, mark as completed/in progress, and delete tasks.
